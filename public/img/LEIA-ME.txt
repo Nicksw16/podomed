@@ -1,0 +1,4 @@
+FOTOS PROVISÓRIAS (banco Unsplash, licença livre) — trocar por fotos reais da clínica.
+hero-800/1600.webp, hero.webp (pés, parede azul) · atendimento.webp (profissional examinando o pé)
+recepcao.webp (recepção azul) · cuidado.webp (creme nos pés)
+Para trocar: substitua os arquivos mantendo nome e proporção, ou edite scripts/imagens.mjs e rode `npm run imagens`.

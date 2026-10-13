@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Fontes self-host (@fontsource, só latin, font-display: swap) */
+@import "@fontsource/figtree/latin-400.css";
+@import "@fontsource/figtree/latin-500.css";
+@import "@fontsource/figtree/latin-600.css";
+@import "@fontsource/outfit/latin-500.css";
+@import "@fontsource/outfit/latin-600.css";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Figtree", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: #F4F9FE;
+  --color-surface: #E3F0FC;
+  --color-baby: #BFDDF7;
+  --color-foreground: #0F2A44;
+  --color-muted-foreground: #3E5A75;
+  --color-primary: #1D5F9E;
+  --color-primary-hover: #154A7E;
+  --color-accent: #8EC5F0;
+  --color-deep: #0B2A4A;
+  --color-deep-ink: #EAF4FD;
+  --color-deep-muted: #B7CCE0;
+  --color-whatsapp: #1A7F45;
+  --color-whatsapp-hover: #146636;
+  --color-border: #C9DEF2;
+
+  --radius-card: 16px;
+
+  --animate-aurora: aurora 60s linear infinite;
+  --animate-accordion-down: accordion-down 240ms ease-out;
+  --animate-accordion-up: accordion-up 200ms ease-out;
+  --animate-rise: rise 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes aurora {
+    from { background-position: 50% 50%, 50% 50%; }
+    to { background-position: 350% 50%, 350% 50%; }
+  }
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; }
+  :focus-visible { outline: 3px solid var(--color-primary); outline-offset: 3px; border-radius: 6px; }
+  [id] { scroll-margin-top: 80px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
