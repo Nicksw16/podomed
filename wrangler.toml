@@ -1,4 +1,9 @@
-# Cloudflare Pages — deploy: npx wrangler pages deploy dist (ou ligar o repositório no painel)
+# Cloudflare — site estático (Workers com assets). Funciona com:
+#   build: npm run build   ·   deploy: npx wrangler deploy
+# (No fluxo antigo do Pages, o Cloudflare ignora este arquivo e usa a saída "dist".)
 name = "podomed"
-pages_build_output_dir = "dist"
-compatibility_date = "2026-10-01"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
