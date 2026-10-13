@@ -1,0 +1,21 @@
+# Briefing — Podomed Podologia (prévia de site)
+
+- **Modo:** cliente real (prévia para apresentar à cliente).
+- **Negócio:** Podomed Podologia — clínica de podologia. Se apresenta como "empresa de empreendedoras".
+- **Nicho:** podologia / saúde dos pés.
+- **Cidade:** Aparecida de Goiânia - GO (bairro Vila São Tomaz).
+- **Endereço:** Av. Dona Maria Cardoso, Qd 84, Lt 01/05, Vila São Tomaz, Aparecida de Goiânia - GO, 74915-520.
+- **WhatsApp:** (62) 98288-2990 → `5562982882990`. Mensagem padrão: "Olá! Vim pelo site e gostaria de agendar um horário na Podomed."
+- **Horário:** seg a sex 08:00–11:30 e 13:30–18:00 | sáb 08:00–12:00 | dom fechado.
+- **Google:** 4,9 estrelas, 128 avaliações.
+- **Diferenciais:** atendimento com agendamento; acessível para cadeirantes; estacionamento gratuito; aceita cartão de crédito, débito e aproximação; abre sábado de manhã.
+- **Equipe (citada nas avaliações):** Ana, Thaís, Leda e Dra. Carol. (Funções não confirmadas — não inventar cargos.)
+- **Elogios recorrentes nas avaliações (usar como resumo, SEM inventar citações):** atendimento atencioso e cuidadoso; alívio de dores e calos; recepção acolhedora com café; preço bom; horário de sábado.
+- **Serviços:** a lista virá do Nicolas → usar espaços reservados `[Serviço]` num único arquivo de dados fácil de trocar. Não inventar serviços nem preços.
+- **Instagram:** não informado → `[instagram]`.
+- **Logo:** não tem → logotipo tipográfico "Podomed" provisório.
+- **Objetivo nº 1:** agendamento pelo WhatsApp.
+- **Público:** moradores de Aparecida de Goiânia e região, de jovens a idosos e diabéticos; chegam pelo celular (Instagram/WhatsApp/Google).
+- **Estilo:** acolhedor, limpo, de saúde, sem frieza hospitalar. **Cores: azul bebê e branco** (escolha do Nicolas).
+- **Fotos:** banco gratuito (Unsplash, licença livre), baixadas e salvas localmente em WebP, marcadas para troca por fotos reais da clínica.
+- **Prova social:** selo 4,9★ / 128 avaliações no Google + "o que os clientes mais elogiam" (resumo). Sem depoimentos inventados.
