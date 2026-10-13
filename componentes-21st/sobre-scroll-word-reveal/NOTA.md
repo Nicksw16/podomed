@@ -1,0 +1,6 @@
+# Scroll word reveal (21st id 24525, Motion examples) - favorito antigo; microinteracao 1 (secao Sobre)
+- URL: https://21st.dev/r/motiondotdev/motion-scroll-word-reveal | Autor: Motion (motion.dev)
+- Licenca: nao declarada no codigo baixado; componente publico do 21st.dev (conferir termos na pagina do componente antes de entregar ao cliente). Vem do catalogo de exemplos oficiais do Motion: confirmar termos de uso antes de publicar.
+- Dependencias npm: motion. O CSS ./motion-scroll-word-reveal-utils/index.css NAO veio no download: escrever a mao (secao com altura ~200dvh, stage sticky top-0 min-h-[100dvh], titulo grande).
+- Revisao de seguranca: APROVADO. Sem <script> externo, sem fetch/XHR, sem eval/new Function, sem dangerouslySetInnerHTML.
+- Como adaptar: remover o frame com container (so servia ao preview do 21st): useScroll({ target: targetRef, offset: ["start start","end end"] }) na janela; TEXT = frase de acolhimento (ex.: "Cuidar dos seus pes com atencao, carinho e sem pressa."); remover o kicker "Scroll to reveal" e a barra de progresso. Funciona no celular (guiado por scroll, sem hover). Reduced-motion: ja mostra o texto inteiro. Altura da secao menor no celular (~150dvh).

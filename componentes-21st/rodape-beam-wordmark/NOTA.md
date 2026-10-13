@@ -1,0 +1,6 @@
+# Rodape Light Beam com wordmark gigante (21st id 35251) - favorito antigo; microinteracao 2
+- URL: https://21st.dev/r/kedhareswer/beam-wordmark-footer | Autor: kedhareswer
+- Licenca: nao declarada no codigo baixado; componente publico do 21st.dev (conferir termos na pagina do componente antes de entregar ao cliente).
+- Dependencias npm: nenhuma alem de React (CSS inline no componente, icones SVG inline, grain em data URI local).
+- Revisao de seguranca: APROVADO. Sem <script> externo, sem fetch/XHR, sem eval/new Function, sem dangerouslySetInnerHTML. Unica URL externa: link de credito https://21st.dev/@kedhareswer no texto padrao (remover via prop credits).
+- Como adaptar (props): brand="Podomed", background="#0B2A4A", ink="#EAF4FD", muted="#B7CCE0", accent="#8EC5F0", wordTop="#8EC5F0", wordFoot="#0B2A4A", fontSans="Outfit", credits=[] , company="Podomed Podologia"; socials so Instagram [instagram] (placeholder) e WhatsApp; colunas: Contato (WhatsApp, endereco, horario) e Navegacao (ancoras). Sem hover no celular: o feixe anda sozinho e as letras saltam ao toque; o brilho do ponteiro some. Reduced-motion: feixe parado e sem salto. Rodape escuro unico fechando a pagina (azul profundo da paleta, nao inverte o tema).
