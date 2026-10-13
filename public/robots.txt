@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /obrigado.html
 
-Sitemap: https://podomed.netlify.app/sitemap.xml
+Sitemap: https://podomed.pages.dev/sitemap.xml

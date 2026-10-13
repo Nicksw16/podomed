@@ -1,0 +1,4 @@
+# Cloudflare Pages — deploy: npx wrangler pages deploy dist (ou ligar o repositório no painel)
+name = "podomed"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"

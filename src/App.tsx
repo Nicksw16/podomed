@@ -318,7 +318,7 @@ export default function App() {
           }
         />
 
-        {/* FORMULÁRIO (Netlify Forms) */}
+        {/* FORMULÁRIO (abre o WhatsApp com a mensagem pronta) */}
         <Contato />
 
         {/* LOCALIZAÇÃO */}

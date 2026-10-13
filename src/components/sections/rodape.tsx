@@ -35,7 +35,7 @@ export default function Rodape({ animate }: { animate: boolean }) {
           links: [
             { label: `WhatsApp ${WHATSAPP_EXIBICAO}`, href: waLink() },
             { label: 'Como chegar', href: MAPS_LINK },
-            { label: 'Prefere que a gente chame?', href: '#contato' },
+            { label: 'Adiantar o agendamento', href: '#contato' },
           ],
         },
         {
